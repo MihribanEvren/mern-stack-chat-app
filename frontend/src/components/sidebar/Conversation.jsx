@@ -1,7 +1,7 @@
 function Conversation() {
   return (
     <>
-      <div className="flex items-center gap-2 p-2 py-1 rounded cursor-pointer hover:bg-violet-500">
+      <div className="flex items-center gap-2 p-2 py-1 rounded cursor-pointer hover:bg-indigo-400">
         <div className="avatar online">
           <div className="w-12 rounded-full">
             <img

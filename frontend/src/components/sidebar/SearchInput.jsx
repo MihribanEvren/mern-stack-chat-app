@@ -8,7 +8,7 @@ function SearchInput() {
         placeholder="Search..."
         className="rounded-full input input-bordered"
       />
-      <button type="submit" className="text-white bg-violet-400 btn btn-circle">
+      <button type="submit" className="text-white bg-indigo-400 btn btn-circle">
         <IoSearchSharp className="w-6 h-6 outline-none" />
       </button>
     </form>
