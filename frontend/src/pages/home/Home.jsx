@@ -3,7 +3,7 @@ import Sidebar from '../../components/sidebar/Sidebar';
 
 function Home() {
   return (
-    <div className="flex sm:h-[450px] md:h-[550px] rounded-lg overflow-hidden bg-violet-400">
+    <div className="flex sm:h-[450px] md:h-[550px] rounded-lg overflow-hidden bg-violet-400 shadow-md">
       <Sidebar />
       <MessageContainer />
     </div>
