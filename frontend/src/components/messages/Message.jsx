@@ -20,7 +20,9 @@ function Message({ message }) {
           <img src={profilePic} alt="Tailwind CSS chat bubble component" />
         </div>
       </div>
-      <div className={`text-white ${bubbleBgColor}  chat-bubble pb-2`}>
+      <div
+        className={`chat-bubble pb-2 text-white ${bubbleBgColor} break-words max-w-[75%] md:max-w-[50%]`}
+      >
         {message.message}
       </div>
       <div className="items-center gap-1 text-xs text-white opacity-80 chat-footer">

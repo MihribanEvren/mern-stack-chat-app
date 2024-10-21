@@ -15,7 +15,7 @@ function MessageContainer() {
 
   return (
     <div
-      className={`md:min-w-[450px] flex flex-col ${
+      className={`max-w-[550px] md:min-w-[450px] flex flex-col ${
         selectedConversation ? 'fixed inset-0 bg-violet-400 md:relative' : ''
       } md:flex`}
     >
