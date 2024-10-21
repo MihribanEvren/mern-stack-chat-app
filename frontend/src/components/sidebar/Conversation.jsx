@@ -10,8 +10,8 @@ function Conversation({ conversation, emoji, lastIdx }) {
   return (
     <>
       <div
-        className={`flex items-center gap-2 p-2 py-1 rounded cursor-pointer hover:bg-indigo-400
-        ${isSelected ? 'bg-indigo-400' : ''}`}
+        className={`flex items-center gap-2 p-2 py-1 rounded cursor-pointer hover:bg-indigo-500
+        ${isSelected ? 'bg-indigo-500' : ''}`}
         onClick={() => setSelectedConversation(conversation)}
       >
         <div className={`avatar ${isOnline ? 'online' : ''}`}>

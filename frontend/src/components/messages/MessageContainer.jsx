@@ -19,7 +19,7 @@ function MessageContainer() {
       ) : (
         <>
           {/* Header */}
-          <div className="px-4 py-2 mb-2 rounded-lg bg-slate-700 ">
+          <div className="px-4 py-2 mb-2 bg-slate-800 ">
             <span className="text-gray-400 label-text">To:</span>{' '}
             <span className="font-bold text-gray-200">
               {selectedConversation.fullName}

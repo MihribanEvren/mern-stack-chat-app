@@ -23,7 +23,7 @@ function Message({ message }) {
       <div className={`text-white ${bubbleBgColor}  chat-bubble pb-2`}>
         {message.message}
       </div>
-      <div className="items-center gap-1 text-xs text-white opacity-50 chat-footer">
+      <div className="items-center gap-1 text-xs text-white opacity-80 chat-footer">
         {formattedTime}
       </div>
     </div>

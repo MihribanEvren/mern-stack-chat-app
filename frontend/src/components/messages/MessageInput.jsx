@@ -18,7 +18,7 @@ function MessageInput() {
       <div className="relative w-full">
         <input
           type="text"
-          className="block w-full p-3 pl-12 text-sm text-white bg-gray-700 border border-gray-600 rounded-full "
+          className="block w-full p-3 pl-12 text-sm text-white border border-gray-600 rounded-full bg-slate-800 "
           placeholder="Send a message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
